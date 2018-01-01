@@ -59,7 +59,7 @@ class ContentPostProcessor {
 		foreach ($result as $file)
 		{
 			if ($this->checkFileForInternal($file)) {
-                $this->headerLinkContent[] = sprintf('</%s>; %s', $file, $this->getConfigForFiletype($file));
+                $this->headerLinkContent[] = sprintf('<%s>; %s', $file, $this->getConfigForFiletype($file));
 			}
 		}
 	}
