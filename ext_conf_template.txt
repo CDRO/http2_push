@@ -1,0 +1,2 @@
+# cat=basic/enable; type=string; label= Webserver Header Length Limit
+webserverHeaderLengthLimit = 8190
