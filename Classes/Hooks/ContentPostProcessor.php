@@ -83,6 +83,9 @@ class ContentPostProcessor {
         $path = parse_url($file, PHP_URL_PATH);
         $parts = GeneralUtility::trimExplode('.', $path, true);
 		$extension = array_pop($parts);
+		if ($extension === 'gzip') {
+		    $extension = array_pop($parts);
+        }
 		switch ($extension) {
 			case 'css':
 				return 'rel=preload; as=stylesheet';
