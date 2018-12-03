@@ -1,7 +1,6 @@
 {
   "name": "cabag/ext-http2-push",
   "description": "HTTP/2 Push for TYPO3 by Kevin Lieser and Björn Fromme\nExtended and pusblished on packagist by Tizian Schmidlin",
-  "version": "0.5.0",
   "type": "typo3-cms-extension",
   "license": "GPL-2.0+",
   "authors": [
