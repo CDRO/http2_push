@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Ka \\Http2Push\\": "Classes/"
+      "Ka\\Http2Push\\": "Classes/"
     }
   }
 }
